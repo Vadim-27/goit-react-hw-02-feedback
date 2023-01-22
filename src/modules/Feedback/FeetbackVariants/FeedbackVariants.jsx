@@ -5,7 +5,7 @@ const FeedbackVariants = ({ options, leaveFeedback }) => {
   const elements = options.map(name => (
     <p key={name}>
       <Button onClick={() => leaveFeedback(name)} type="button">
-        Good
+        {name}
       </Button>
     </p>
   ));
