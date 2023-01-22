@@ -48,7 +48,7 @@ class Feedback extends Component {
 
     return (
       <div className={css.wrapper}>
-        <FeedbackBlock titie="Please">
+        <FeedbackBlock titie="Please leave feedback">
           <FeedbackVariants options={voteOptions} leaveFeedback={this.leaveFeedback} />
         </FeedbackBlock>
         <FeedbackBlock titie="Statistics">
