@@ -1,0 +1,18 @@
+.btn{
+    padding: 8px;
+    min-width: 80px;
+    font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* or 133% */
+    
+        
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(155, 222, 135);
+        border-radius: 5px;
+        
+    
+        color: #000000;
+}

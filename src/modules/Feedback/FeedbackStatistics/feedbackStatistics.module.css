@@ -1,0 +1,15 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.item{
+font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+
+    color: #000000;
+}
